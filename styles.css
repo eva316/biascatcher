@@ -1,4 +1,61 @@
-h1 {
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Lato:100');
+
+#BC {
     
-    font-family: sans-serif;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: orangered;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
+
+body {
+    
+    background-color: skyblue;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.menuItem {
+    display: inline;
+    text-align: center;
+    font-size: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.menuLink{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Lato';
+    
+}
+
+.menuLink:hover {
+    text-decoration: none;
+    color: palegreen;
+    font-family: 'Lato';   
+}
+
+#description {
+    font-family: 'Lato';
+    font-size: 40px;
+    color:darkslategray;
+    text-align: center;
+}
+
+
+.slides {
+    display:none;
+    width:100%;
+
+}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
