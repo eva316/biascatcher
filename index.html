@@ -7,72 +7,17 @@
 </head>
     
 <body>
-    <h1 id="BC">BiasCatcher</h1>
+    <h1 class="BC"><a href="index.html">BiasCatcher</a></h1>
 
 <ul class="menu">
-    <li class="menuItem"><a class="menuLink" href="#about">About</a></li>
-    <li class="menuItem"><a class="menuLink" href="#resources">Resources</a></li>
-    <li class="menuItem"><a class="menuLink" href="">Surveys</a></li>
+    <li class="menuItem"><a class="menuLink" href="about.html">About</a></li>
+    <li class="menuItem"><a class="menuLink" href="resources.html">Resources</a></li>
+    <li class="menuItem"><a class="menuLink" href="surveys.html">Surveys</a></li>
     </ul>
     
+    <img >
     <h3 id="description">BiasCatcher is a website offering resources that aim to allow one to be aware of their own bias, and take steps to address that bias.</h3>
-   
-    
-   <ul>
-    <a>resource 1<img></a>
-     <a>resource 2<img></a>
-     <a>resource 3<img></a>
-     <a>more?<img></a>
-</ul> 
-      
-    <div class="w3-content w3-display-container" style="max-width:800px">
-        <img class="slides" src="projectImplicit.png" >
-        <a href="http://www.ala.org/advocacy/diversity/workplace/bias"><div class="slides" src="">6 Steps to addressing bias</div></a>
-        <!--the 6 steps can be featured on their own part of the site-->
-        
-        <img class="slides" src="" >
-     <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-        <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-        <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-        <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-  </div>
-    </div>
-   
-    <script>
-var slideIndex = 1;
-showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("slides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
-}
-</script>
-    
-    
-    <a name="resources"><p>Resources to check out</p></a>
-    <a href="https://implicit.harvard.edu/implicit/selectatest.html">Harvard study</a>
-    <a></a>
     
 
 </body>

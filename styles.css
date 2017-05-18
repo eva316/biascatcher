@@ -1,13 +1,61 @@
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Lato:100');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Lato:100|Cantarell|Dosis|Economica:400,700|Open+Sans+Condensed:300|Poiret+One|Quicksand:400,500|Rajdhani|Roboto|Bungee+Shade');
 
-#BC {
+.BC {
     
     font-family: 'Alfa Slab One', sans-serif;
     font-size: 100px;
     text-align: center;
-    color: orangered;
+    color: #ff4500;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    margin-top: none;
+}
+
+.pageTitle {
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: navy;
+    padding-top: none;
+    margin-top: none;
+    
+}
+
+#resourceList{
+    list-style-type: none;
+    
+}
+.resourceTitle {
+    font-size: 60px;
+    text-align: center;
+    color:palegreen;
+    font-family:'Bungee Shade', 'Roboto';
+    
+    
+}
+
+.resourceText {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left:50px;
+    margin-right: 50px;
+    font-family: 'Quicksand';
+    
+}
+
+.resourcePI {
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-left:50px;
+    margin-right: 50px;
+    font-family: 'Quicksand';
+    
+}
+
+.other {
+    font-size: 40px;
+    font-family: 'Quicksand'
+    
 }
 
 body {
@@ -17,16 +65,28 @@ body {
 
 .menu {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+/*
+    margin: none;
+    padding: none;
+*/
     text-align: center;
+    
+}
+
+a {
+    text-decoration: none;
+    color: orangered;
+}
+
+a:hover {
+    color:white;
     
 }
 
 .menuItem {
     display: inline;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -51,11 +111,20 @@ body {
     text-align: center;
 }
 
+/*about page*/
+.intro {
+    font-size: 30px;
+    color:dimgray;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Quicksand';
+    
+}
+
 
 .slides {
     display:none;
     width:100%;
 
 }
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
